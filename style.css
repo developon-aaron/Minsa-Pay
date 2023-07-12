@@ -1,3 +1,27 @@
+input, button{
+  width: 343px;
+  height: 52px;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: #FFF;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.23);
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.buttons{
+  background-color:black ;
+  color:white;
+  font-family: Comfortaa, Helvetica, sans-serif
+  font-weight: 700;
+
+}
+
+/* Mobile_Login */
 #login span{
     color: #000;
     font-family: Comfortaa;
@@ -8,28 +32,54 @@
     letter-spacing: -0.54px;
 }
 
-input, button{
-    width: 343px;
-    height: 52px;
-    border: 2px solid;
-    border-radius: 15px;
-    background-color: #FFF;
+/* Mobile_Main */
+#wallet {
+  width: 393px;
+  height: 306px;
+  border-radius: 0px 0px 10px 10px;
+  background: #FFAC4A;
 }
 
-input::placeholder {
-    color: rgba(0, 0, 0, 0.23);
-    font-family: Comfortaa;
-    font-size: 15px;
-    font-weight: 400;
+#wallet span {
+  color: #FFF;
+  font-family: Comfortaa;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.buttons{
-    background-color:black ;
-    color:white;
-    font-family: Comfortaa, Helvetica, sans-serif
-    font-weight: 700;
-
+#wallet button {
+  background-color:rgba(0, 0, 0, 0.20);
+  color: #FFF;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 700;
+  border: 0px;
 }
+
+/* Mobile_Settings */
+#Secure_Purchase span {
+  color: #000000;
+  font-family: Comfortaa;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+#text span{
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.225px;
+}
+
+
+
 
 /* toggle-swtich */
 .toggle-switch {
@@ -70,7 +120,7 @@ input::placeholder {
   }
   
   .toggle-switch input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #FFAC4A;
   }
   
   .toggle-switch input:checked + .slider:before {
