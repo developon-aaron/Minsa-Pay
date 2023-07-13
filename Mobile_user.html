@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>minsa pay</title>
 </head>
 <body>
@@ -33,17 +33,19 @@
         </div>
 
         <!-- 거래내역 -->
-        <div class="container">
+        <div class="item">
             <!-- 돈 -->
-            <div>
-                <span>10000원</span>
+            <div class="cost_box">
+                <p class="cost">10000원</p>
             </div>
-            <div>
-                <div id="Student_Id">
-                    <span>231045</span>
-                </div>
-                <div id="Time">
-                    <span>10시 53분 17초</span>
+            <div class="info">
+                <div class="info_container">
+                    <div class="Student_Id">
+                        <span>231045</span>
+                    </div>
+                    <div class="date">
+                        <span>10시 53분 17초</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,7 +54,7 @@
 
     <section id="Mobile_Settings_Buyer">
         <!-- 비밀번호 변경 -->
-        <div>
+        <div id="Password_Changes">
             <span>비밀번호 번경</span>
         </div>
         <!-- 현재 비밀번호 -->
@@ -79,9 +81,6 @@
           </label>
 
     </section>
-
     
-
-
 </body>
 </html>

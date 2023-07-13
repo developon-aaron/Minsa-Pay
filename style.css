@@ -6,6 +6,10 @@ input, button{
   background-color: #FFF;
 }
 
+input {
+  padding-left: 1%;
+}
+
 input::placeholder {
   color: rgba(0, 0, 0, 0.23);
   font-family: Comfortaa;
@@ -14,11 +18,12 @@ input::placeholder {
 }
 
 .buttons{
-  background-color:black ;
+  background-color:rgb(0, 0, 0) ;
   color:white;
-  font-family: Comfortaa, Helvetica, sans-serif
+  font-family: Comfortaa, Helvetica, sans-serif;
   font-weight: 700;
-
+  height: 58px;
+  width: 347px;
 }
 
 /* Mobile_Login */
@@ -57,7 +62,88 @@ input::placeholder {
   border: 0px;
 }
 
+/* 결제내역 */
+.item { 
+  display: flex;
+  width: 355px;
+  height: 86px;
+  border-radius: 20px;
+  background: #F4F4F4;
+}
+
+.cost_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  color: #000;
+
+}
+
+
+
+.cost {
+  display: block;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width : 50%;
+  height: 100%;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  border-left: 2px solid #000;
+}
+
+.info .Student_Id {
+  color: #000;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+
+.info .date {
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+}
+
+
+
+
+
+
 /* Mobile_Settings */
+#Password_Changes{
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.45px;
+}
+
 #Secure_Purchase span {
   color: #000000;
   font-family: Comfortaa;
