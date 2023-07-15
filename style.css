@@ -1,13 +1,14 @@
 input, button{
   width: 343px;
   height: 52px;
-  border: 2px solid;
+  border: 2px solid #000;
   border-radius: 15px;
   background-color: #FFF;
 }
 
 input {
   padding-left: 1%;
+  outline: none;
 }
 
 input::placeholder {
@@ -38,21 +39,21 @@ input::placeholder {
 }
 
 /* Mobile_Main */
-#wallet {
+.wallet {
   width: 393px;
   height: 306px;
   border-radius: 0px 0px 10px 10px;
   background: #FFAC4A;
 }
 
-#wallet span {
+.wallet span {
   color: #FFF;
   font-family: Comfortaa;
   font-size: 40px;
   font-weight: 700;
 }
 
-#wallet button {
+.wallet button {
   background-color:rgba(0, 0, 0, 0.20);
   color: #FFF;
   text-align: center;
@@ -81,7 +82,6 @@ input::placeholder {
   color: #000;
 
 }
-
 
 
 .cost {
@@ -213,3 +213,55 @@ input::placeholder {
     transform: translateX(26px);
   }
   
+/* Dept */
+.payment {
+  width: 346px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Container{
+  width: 370px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #F4F4F4;
+  border-radius: 10px;
+}
+
+.Container input{
+  width: 250px;
+  height: 52px;
+  padding-left: 2%;
+}
+
+.Container span{
+  color: #000;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+
+#wallet_admin {
+  height: 113px;
+  background-color : #45C1DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pay, #refund{
+  width: 155px;
+  height: 50px;
+  background: #F4F4F4;
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}

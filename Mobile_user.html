@@ -25,7 +25,7 @@
 
     <section id="Mobile_Main_Buyer">
         <!-- 지갑 -->
-        <div id="wallet">
+        <div class="wallet">
             <!-- 잔고 -->
             <span>10000원</span>
             <!-- 결제 승인 -->
@@ -82,5 +82,37 @@
 
     </section>
     
+    <!-- 부서 -->
+    <section>
+        <div class="wallet" id="wallet_admin">
+            <!-- 잔고 -->
+            <span>10000원</span>
+        </div>
+        
+        <div class="Container">
+            <span>학번</span>
+            <input type="text" id="Student_Id_Dept" placeholder="231045">
+        </div>
+        <div class="Container">
+            <span>금액</span>
+            <input type="text" id="Cost_Dept" placeholder="30000">            
+        </div>
+
+
+
+
+
+
+        <div class="payment">
+            <button class="buttons" id="pay" type="button">
+                결제
+            </button>
+    
+            <button class="buttons" id="refund" type="button">
+                환불
+            </button>
+        </div>
+        
+    </section>
 </body>
 </html>
